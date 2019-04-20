@@ -2,8 +2,14 @@
 
 // MySQL connection file along with necessary functions for DB access.
 session_start();
-$username = 'root';
-$password = '';
+# For Ubuntu
+$username = 'shrikrishna';
+$password = 'root';
+
+#For Windows
+// $username = 'root';
+// $password = '';
+
 $host = 'localhost';
 $database = 'test';
 
